@@ -1,0 +1,731 @@
+body {
+    width: 100%;
+    height: 765vh;
+    background-color: white;
+    font-family: Poppins;
+}
+
+.navbar {
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    font-size: 16px;
+}
+
+.navbuttons {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listitems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+
+.listitems li {
+    list-style-type: none;
+}
+
+.logohere {
+    width: 20%;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    background: transparent;
+    width: 200px;
+    height: 55px;
+    
+    border-radius: 10px;
+    border: 2px solid #056aeb;
+    font-size: 18px;
+    color: #056aeb;
+}
+
+.computer-server {
+    height: 30em;
+    width: auto;
+    align-self: center;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 80%;
+    margin: auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.headline-details {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.headline-head {
+    width: 90%;
+    word-wrap: break-word;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.headline-desc {
+    width: 70%;
+}
+
+.goto-button {
+    width: 180px;
+    height: 50px;
+
+    background: linear-gradient(to bottom right, #09baf8, #0462ea);
+    border: none;
+    border-radius: 10px;
+
+    color: white;
+    font-weight: 600;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+.spaced {
+    padding-left: 7%;
+}
+
+.headline-bottom {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headline-bottom-head {
+    width: 40%;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.headline-bottom-desc {
+    width: 40%;
+    word-wrap: break-word;
+}
+
+.feature-cards {
+    background: #e7e7e7;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 365px;
+    height: 240px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-card img {
+    width: 60px;
+    height: auto;
+}
+
+.feature-title {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.pricing-section {
+    width: 100%;
+    height: 700px;
+
+    background: linear-gradient(to bottom right, #09c6f9, #045de9);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.pricing-head {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.pricing-cards {
+    width: 75%;
+    height: 95%;
+    margin: auto;
+    margin-top: 1%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pricing-card {
+    width: 30%;
+    height: 100%;
+
+    background: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pricing-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.pricing-intro {
+    font-size: 15px;
+    color: gray;
+}
+
+.pricing-features {
+    height: 40%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pricing-feature-short {
+    align-self: flex-start;
+    list-style-type: none;
+
+    display: flex;
+    margin: 15px;
+    font-weight: 500;
+}
+
+.pricing-feature-short img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.price-detail {
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 0px;
+}
+
+.price-number {
+    color: black;
+}
+
+.price-detail-info {
+    font-weight: 600;
+    color: gray;
+}
+
+.choose-plan {
+    width: 170px;
+    height: 50px;
+
+    background: transparent;
+    border: 2px solid #056aeb;
+    border-radius: 7px;
+
+    color: #056aeb;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.active {
+    color: white;
+    background: linear-gradient(to bottom right, #09c6f9, #045de9);
+
+    box-shadow: 0px 0px 20px #eaeaea;
+    border: none;
+}
+
+.customer-reviews-section {
+    width: 90%;
+    height: 50em;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.customer-review-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.customer-review-desc {
+    text-align: center;
+    width: 65%;
+}
+
+.customer-reviews-cards {
+    width: 90%;
+    height: 70%;
+    margin: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+.customer-review-card {
+    width: 40%;
+    height: 30%;
+
+    background: white;
+    border: 3px solid #e8e8e8;
+    border-radius: 7px;
+    padding: 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.customer-reviewer-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.customer-photo {
+    background: gray;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+}
+
+.focused {
+    box-shadow: 0px 0px 30px 10px #e7e7e7;
+}
+
+.last-section {
+    width: 100%;
+    height: 400px;
+
+    background: linear-gradient(to bottom right, #09c6f9, #045de9);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.last-section-details {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.last-section-title {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.last-section-desc {
+    color: white;
+    font-size: 15px;
+    width: 90%;
+}
+
+.last-section-right {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.register-button {
+    width: 170px;
+    height: 50px;
+
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.footer-section {
+    width: 100%;
+    height: 316px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-about {
+    width: 20%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer-logo-here {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.footer-about-description {
+    width: 80%;
+    color: gray;
+    margin-top: 10px;
+}
+
+.footer-list-item {
+    color: gray;
+    margin: 10px 0px;
+    list-style-type: none;
+}
+
+.footer-list-item.heading {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-menu, .footer-links, .footer-overview {
+    width: 10%;
+    height: 60%;
+}
+
+.footer-social-media {
+    width: 13%;
+    height: 60%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social-media p {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.social-media-icons {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media-icons img {
+    width: 25px;
+    height: auto;
+}
+
+@media (max-width: 440px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        height: 1330vh;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 30vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .logohere {
+        text-align: center;
+    }
+
+    .navbuttons {
+        text-align: center;
+        width: 90%;
+        height: 60%;
+        flex-direction: column;
+    }
+    
+    .listitems {
+        padding: 0px;
+        height: 80%;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .listitem {
+        width: 30%;
+    }
+    
+    .headline {
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+        width: 100%;
+        height: 100vh;
+        margin-top: 10em;
+    }
+    
+    .headline-details {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .headline-head {
+        width: 90%;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .headline-desc {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .headline img {
+        width: 90%;
+        height: auto;
+    }
+
+    .headline-bottom {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .spaced {
+        padding: 0px;
+    }
+
+    .headline-bottom-head, .headline-bottom-desc {
+        width: 90%;
+    }
+
+    .feature-cards {
+        width: 100%;
+        margin: 0px auto;
+        justify-content: space-evenly;
+    }
+    
+    .feature-card {
+        width: 90%;
+        height: 240px;
+        box-sizing: border-box;
+    
+        background: white;
+        padding: 10px 10px 10px 20px;
+        border-radius: 20px;
+    }
+    
+    .feature-title, .feature-description {
+        width: 90%;
+    }
+
+    .pricing-section {
+        flex-direction: column;
+        height: 280vh;
+    }
+
+    .pricing-head {
+        text-align: center;
+        width: 90%;
+        height: 4%;
+    }
+
+    .pricing-cards {
+        width: 100%;
+        height: 95%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 80%;
+        height: 32%;
+        margin: auto;
+    }
+
+    .pricing-intro {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .pricing-features {
+        padding: 0px;
+    }
+
+    .pricing-feature-short {
+        font-size: 18px;
+    }
+
+    .customer-reviews-section {
+        width: 100%;
+        height: 240vh;
+        justify-content: space-evenly;
+    }
+
+    .customer-review-title, .customer-review-desc {
+        text-align: center;
+        width: 100%;
+        margin: 10px 0px;
+        height: 8%;
+    }
+
+    .customer-review-desc {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .customer-reviews-cards {
+        width: 100%;
+        height: 80%;
+    }
+
+    .customer-review-card {
+        width: 85%;
+        height: 20%;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .customer-review-comment {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .last-section {
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .last-section-details {
+        width: 90%;
+        height: 70%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .last-section-title {
+        font-size: 30px;
+    }
+
+    .last-section-right {
+        width: 80%;
+        height: 30%;
+        justify-content: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        height: 90vh;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-about, .footer-menu, .footer-links, .footer-overview, .footer-social-media {
+        width: 40%;
+        height: 33%;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .footer-about {
+        display: flex;
+        align-items: center;
+        height: 33%;
+    }
+
+    .footer-menu, .footer-links, .footer-overview {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .footer-links, .footer-overview {
+        justify-content: flex-start;
+    }
+
+    .footer-social-media {
+        width: 60%;
+        height: 12%;
+    }
+    .social-media-icons {
+        width: 100%;
+        height: 60%;
+    }
+    .social-media-icons img {
+        height: 80%;
+        width: auto;
+    }
+}
